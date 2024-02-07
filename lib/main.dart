@@ -81,15 +81,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   crossAxisSpacing: 40,
                   mainAxisSpacing: 30,
                 children: [
-                  itemDashboard('Videos', CupertinoIcons.play_rectangle, Colors.deepOrange),
-                  itemDashboard('Images', CupertinoIcons.photo, Colors.green),
-                  itemDashboard('Analytics', CupertinoIcons.graph_circle, Colors.purple),
-                  itemDashboard('Comments', CupertinoIcons.chat_bubble_2, Colors.indigo),
-                  itemDashboard('Revenue', CupertinoIcons.money_dollar, Colors.teal),
-                  itemDashboard('Upload', CupertinoIcons.add_circled, Colors.blueAccent),
-                  itemDashboard('About', CupertinoIcons.question_circle, Colors.pinkAccent),
+                  itemDashboard('Pens', CupertinoIcons.pen, Colors.deepOrange),
+                  itemDashboard('Flude', CupertinoIcons.eyedropper, Colors.green),
+                  itemDashboard('Pencils', CupertinoIcons.pencil, Colors.purple),
+                  itemDashboard('Ruler', CupertinoIcons.rectangle_compress_vertical, Colors.indigo),
+                  itemDashboard('Notenooks', CupertinoIcons.book_fill, Colors.teal),
+                  itemDashboard('Plane Sheets', CupertinoIcons.rectangle_paperclip, Colors.blueAccent),
+                  itemDashboard('Box', CupertinoIcons.cube_box_fill, Colors.pinkAccent),
                   itemDashboard('Contact', CupertinoIcons.phone, Colors.brown),
-                  itemDashboard('Audience', CupertinoIcons.person_2, Colors.yellowAccent),
+                  itemDashboard('Account', CupertinoIcons.person_2, Colors.yellowAccent),
                 ],
               )
             )
